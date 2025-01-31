@@ -22,8 +22,8 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: "module",
   },
-  plugins: ["react", "@typescript-eslint"],
-  rules: {},
+  plugins: ["react", "@typescript-eslint", "storybookPlugin", " jsdocPlugin"],
+  rules: { "valid-jsdoc": "off", "require-jsdoc": "off" },
   settings: {
     react: {
       version: "latest",
