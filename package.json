@@ -15,7 +15,7 @@
     "cypress": "cypress open",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "lint": "eslint . --ext .ts,.tsx,.js,.jsx"
+    "lint": "eslint  .ts,.tsx,.js,.jsx"
   },
   "dependencies": {
     "next": "^15.1.6",
