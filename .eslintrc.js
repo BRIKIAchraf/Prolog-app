@@ -8,6 +8,7 @@ module.exports = {
     "google",
     "prettier",
     "plugin:storybook/recommended", // Only include this once
+    "plugin:jsdoc/recommended",
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
