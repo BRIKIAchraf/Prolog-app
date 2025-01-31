@@ -9,6 +9,8 @@ module.exports = {
     "prettier",
     "plugin:storybook/recommended", // Only include this once
     "plugin:jsdoc/recommended", // Add this line
+    "next", // Add this line
+    "next/core-web-vitals", // Add this line
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
@@ -28,7 +30,7 @@ module.exports = {
   },
   settings: {
     react: {
-      version: "latest",
+      version: "detect",
     },
   },
 };
