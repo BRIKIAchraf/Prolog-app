@@ -20,6 +20,15 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: "module",
   },
+  ignores: [
+    "node_modules/",
+    "dist/",
+    "public/",
+    "package-lock.json",
+    "yarn.lock",
+    ".next/",
+    "next-env.d.ts",
+  ],
   plugins: ["react", "@typescript-eslint", "storybook", "jsdoc"], // Add "jsdoc" here
   rules: {
     "valid-jsdoc": "off", // Disable this rule (deprecated)
